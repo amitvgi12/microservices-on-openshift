@@ -4,7 +4,6 @@ export OSE_SERVICES_PROJECT=msservices
 export OSE_INFRA_PROJECT=msservices
 export FROM_GMAIL=amitvgi12@gmail.com
 export FROM_GMAIL_PASSWORD=Resourc9!
-//For these params refer https://dev.twitter.com/oauth/overview/application-owner-access-tokens
 export TWITTER_CONSUMER_KEY=GWyq0Yg6S5hFhEzOInMV5vrJz
 export TWITTER_CONSUMER_SECRET=BiaCxVSoJXot4NhICMTzktbG2b9IzArV8txYPgOIbHPApIUg0Y
 export TWITTER_OAUTH_ACCESS_TOKEN=1318990550444380161-So0EdgtGKYpjnIfZcFDVHkquApPHpp
