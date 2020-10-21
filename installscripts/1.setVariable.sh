@@ -1,7 +1,7 @@
 export OSE_DOMAIN=apps.devday.ocpcloud.com
-export OSE_CLIENT_PROJECT=msservices
+export OSE_CLIENT_PROJECT=msclient
 export OSE_SERVICES_PROJECT=msservices
-export OSE_INFRA_PROJECT=msservices
+export OSE_INFRA_PROJECT=msinfra
 export FROM_GMAIL=amitvgi12@gmail.com
 export FROM_GMAIL_PASSWORD=Resourc9!
 export TWITTER_CONSUMER_KEY=GWyq0Yg6S5hFhEzOInMV5vrJz
