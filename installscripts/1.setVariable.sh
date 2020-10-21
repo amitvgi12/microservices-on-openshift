@@ -2,11 +2,11 @@ export OSE_DOMAIN=apps.devday.ocpcloud.com
 export OSE_CLIENT_PROJECT=msservices
 export OSE_SERVICES_PROJECT=msservices
 export OSE_INFRA_PROJECT=msservices
-export FROM_GMAIL=<<from email for your email service>>
-export FROM_GMAIL_PASSWORD=<<password for the from email>>
+export FROM_GMAIL=amitvgi12@gmail.com
+export FROM_GMAIL_PASSWORD=Resourc9!
 //For these params refer https://dev.twitter.com/oauth/overview/application-owner-access-tokens
-export TWITTER_CONSUMER_KEY=<<Consumer Key (API Key)>>
-export TWITTER_CONSUMER_SECRET=<<Consumer Secret (API Secret)>>
-export TWITTER_OAUTH_ACCESS_TOKEN=<<Access Token>>
-export TWITTER_OAUTH_ACCESS_TOKEN_SECRET=<<Access Token Secret>>
+export TWITTER_CONSUMER_KEY=GWyq0Yg6S5hFhEzOInMV5vrJz
+export TWITTER_CONSUMER_SECRET=BiaCxVSoJXot4NhICMTzktbG2b9IzArV8txYPgOIbHPApIUg0Y
+export TWITTER_OAUTH_ACCESS_TOKEN=1318990550444380161-So0EdgtGKYpjnIfZcFDVHkquApPHpp
+export TWITTER_OAUTH_ACCESS_TOKEN_SECRET=14RUGStkoPx4a2Ts7MbIu2MJHRbmpu70jqUhmSPDpOamk
 
