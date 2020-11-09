@@ -5,6 +5,7 @@ var mongoServiceName = process.env.DATABASE_SERVICE_NAME.toUpperCase();
 var mongoHost = process.env[mongoServiceName + "_SERVICE_HOST"];
 var mongoPort = process.env[mongoServiceName + "_SERVICE_PORT"];
 var database = 'mongodb://'+process.env.MONGODB_USER+':'+process.env.MONGODB_PASSWORD+'@'+mongoHost+':'+mongoPort+'/'+process.env.MONGODB_DATABASE;
+var secret = 'saregama'
 var express 	= require('express');
 var app         = express();
 var bodyParser  = require('body-parser');
@@ -24,7 +25,8 @@ var port = process.env.PORT || 8080;
 console.log(database);
 mongoose.connect('mongodb://mongouser:password@172.30.107.73:27017/userdb', {useMongoClient: true}); 
 //console.log(mongoose.connect(database, {useMongoClient: true}));
-app.set('superSecret', config.secret); 
+//app.set('superSecret', config.secret); 
+app.set('superSecret', secret); 
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
