@@ -22,7 +22,8 @@ var client = request.createClient(process.env.EMAIL_APPLICATION_DOMAIN);
 
 var port = process.env.PORT || 8080; 
 console.log(database);
-console.log(mongoose.connect(database, {useMongoClient: true})); 
+mongoose.connect('mongodb://mongouser:password@172.30.107.73:27017/userdb', {useMongoClient: true}); 
+//console.log(mongoose.connect(database, {useMongoClient: true}));
 app.set('superSecret', config.secret); 
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
