@@ -21,7 +21,7 @@ request = require('request-json');
 var client = request.createClient(process.env.EMAIL_APPLICATION_DOMAIN);
 
 var port = process.env.PORT || 8080; 
-mongoose.connect('database', {useMongoClient: true}); 
+mongoose.connect('mongodb://+process.env.MONGODB_USER+':'+process.env.MONGODB_PASSWORD+'@'+mongoHost+':'+mongoPort+'/'+process.env.MONGODB_DATABASE', {useMongoClient: true}); 
 app.set('superSecret', config.secret); 
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
